@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #021931;
+    color: rgb(252, 233, 125);
+    padding: 15px 30px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .brand {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .navbar nav a {
+    color: rgb(193, 241, 154);
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px;
+    background-color: #d6d4d6;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+    text-align: center;
+  }
+  
+  .hero-text h2 {
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    margin-bottom: 20px;
+  }
+  
+  .hero-text button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .hero-image img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  .about {
+    padding: 40px 30px;
+    text-align: center;
+    background-color: #fafaed;
+  }
+  
+  .about .biodata {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+    text-align: left;
+    background-color: #fafaed;
+    
+  }
+  
+  .portfolio {
+    padding: 40px 30px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .project {
+    width: 220px;
+  }
+  
+  .project img {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+ h2{color: #6409db;}
+ .footer {
+    background-color: #6409db;
+    text-align: center;
+ }
+  
